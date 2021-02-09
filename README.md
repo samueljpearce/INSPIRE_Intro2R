@@ -10,9 +10,9 @@ This Readme file also contains a list of resources that you may find useful belo
 
 ## Resources:
 
-### Reccommended Packages:
+### Recommended Packages:
 
-### Learning R
+#### Learning R
 
 Yes, you read that correctly. Packages for learning R... in R.
 
@@ -45,7 +45,7 @@ OR
 - [Shiny](https://shiny.rstudio.com/)
 - flexdashboard
 
-### Best Practices for Programming in R:
+### Best Practices for Programming:
 
 #### Styles Guides
 
@@ -94,7 +94,7 @@ Shiny is a package used for creating interactive web dashboards. These can be pa
 ##### Blogs and Tutorials
 
 - Official Shiny [Articles](https://shiny.rstudio.com/articles/) and [Tutorials](https://shiny.rstudio.com/tutorial/)
-- https://deanattali.com/blog/advanced-shiny-tips/
+- [Dean Attali's Blog](https://deanattali.com/blog/advanced-shiny-tips/)
 
 ##### Books
 
@@ -107,12 +107,13 @@ Shiny is a package used for creating interactive web dashboards. These can be pa
 
 - See the [Awesome Shiny Extensions](https://github.com/nanxstats/awesome-shiny-extensions) and [Awesome Shiny](https://github.com/grabear/awesome-rshiny) github repos. They are much more complete than anything I would be able to put here.
 
-##### Geographic Information System (GIS)
+#### Geographic Information System (GIS)
 
 GIS is used to make maps and vizualise geographic data. R can do this and I have used it to create simple UK county heatmaps before, but if you are getting into serious GIS territory, you may benefit from specific GIS software such as ArcGIS (paid-for, proprietary software, but a licence can be obtained through UoB software centre) or QGIS (free, open-source software). If you do insist on using R for GIS (as I did) then I've included some books below:
 
-##### Statistics
+#### Statistics
 
+- [An Introduction to Statistical Learning (with applications in R)](https://www.statlearning.com/) and the follow-up [The Elements of Statistical Learning](http://www.web.stanford.edu/~hastie/ElemStatLearn/)
 - [Introduction to Probability and Statistics using R](http://ipsur.r-forge.r-project.org/book/download/IPSUR.pdf)
 - [Applied Statistics with R](http://daviddalpiaz.github.io/appliedstats/)
 
