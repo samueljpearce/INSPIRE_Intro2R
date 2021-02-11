@@ -95,7 +95,7 @@ OR
 
 ##### Books
 
-- [An Introduction to R and other Official R Manuals](hhttps://cran.r-project.org/manuals.html)
+- [An Introduction to R and other Official R Manuals](https://cran.r-project.org/manuals.html)
 - [R for Data Science](https://r4ds.had.co.nz/)
 - [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
 - [Advanced R](http://adv-r.had.co.nz/)
