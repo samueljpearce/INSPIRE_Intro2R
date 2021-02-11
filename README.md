@@ -32,6 +32,14 @@ OR
 	- Advantages: very fast (good for very large datasets/"big data"), syntax is similar to base R
 	- Disadvantages: not easily readable/comprehensible
 	
+#### Visualisations and Plots
+
+- ggplot2
+
+OR
+
+- plotly
+
 #### Strings and Regular Expressions (Regex)
 
 - Stringr (included in tidyverse)
@@ -81,7 +89,9 @@ OR
 
 ##### Blogs and Tutorials
 
+- [R Bloggers](https://www.r-bloggers.com/)
 - [Impatient R](https://www.burns-stat.com/documents/tutorials/impatient-r/)
+- [Software Carpentry Tutorials](http://swcarpentry.github.io/r-novice-inflammation/)
 
 ##### Books
 
