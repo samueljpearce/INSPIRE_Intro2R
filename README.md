@@ -4,7 +4,7 @@
 
 The scripts folder contains all of the R scripts that are used in the live Introduction to R session held by INSPIRE. You can refer back to these scripts to as you learn to use R.
 
-This Readme file also contains a list of resources that you may find useful below.
+This Readme file also contains a list of resources that you may find useful below. This list is not intended to be definitive or complete, but provide resources for the beginner and more advanced R users as you progress. There is a section at the bottom containing R resource lists made by others that contain many more resources and you may find them useful as you progress past the information included here. 
 
 ---
 
@@ -40,6 +40,13 @@ OR
 
 - Lubridate
 
+#### Reproducible Research
+
+- here
+- rrtools
+- renv
+- groundhog
+
 #### Interactive Dashboards
 
 - [Shiny](https://shiny.rstudio.com/)
@@ -47,7 +54,14 @@ OR
 
 ### Best Practices for Programming:
 
-#### Styles Guides
+#### Recommended Reading
+
+These two papers demonstrate high-impact ways to improve the reliabiliy and reproducibility of your programming. Some of these methods are commonly used in non-academic computer science roles and scientific computing is exactly that, it is at the cross-roads of science and computing. So, branching out and learning skills commonly used in computer science and non-academic programming roles will help to improve your code, and decrease the frequency and impact of mistakes that you may make along the way.
+
+- [Good Enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) (paper)
+- [Best Practices in Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) (paper)
+
+#### R Style Guides
 
 A style guide provides a standardised way to write code - think of it as a dialect for your language. Pick a stylesheet and actually use it. If you're working within a team, they may already use a particular style, so it may be worth asking if they have a preference - that way everyone in the group will write similarly styled code.
 
