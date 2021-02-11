@@ -111,6 +111,7 @@ OR
 
 #### RMarkdown
 
+- [RMarkdown Cheatsheet] (https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 - [Bookdown](https://www.bookdown.org/home/) (for RMarkdown docs)
 
 
