@@ -57,7 +57,7 @@ OR
 
 #### Bioinformatics/Genomics
 
-- biocmanager
+- [Bioconductor](https://www.bioconductor.org/)
 
 #### Interactive Dashboards
 
