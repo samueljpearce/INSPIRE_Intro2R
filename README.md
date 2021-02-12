@@ -58,7 +58,6 @@ OR
 #### Interactive Dashboards
 
 - [Shiny](https://shiny.rstudio.com/)
-- flexdashboard
 
 ### Best Practices for Programming:
 
@@ -104,6 +103,10 @@ OR
 
 #### Data Vizualisations
 
+##### Blogs and Tutorials
+
+- [R Graph Gallery](https://www.r-graph-gallery.com/index.html) for examples and explanations of different graph types
+- [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
 
 #### RMarkdown
 
