@@ -40,6 +40,19 @@ OR
 
 - plotly
 
+#### Tables
+
+- gt
+- xtable
+- huxtable
+- kable and kableExtra
+
+#### Descriptive Statistics
+
+- gtsummary
+- hmisc
+- arsenal
+
 #### Strings and Regular Expressions (Regex)
 
 - Stringr (included in tidyverse)
