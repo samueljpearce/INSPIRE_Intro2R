@@ -20,7 +20,7 @@ Yes, you read that correctly. Packages for learning R... in R.
 
 #### Data Cleaning/Transformation/Wrangling
 
-These packages are used to manipulate, transform and clean up data. If you're a beginner, I would reccomend starting with *tidyverse*, but I have included some advantages and disadvantages to guide you - for a more in depth comparison, take a look at [this stackoverflow thread involving Hadley Wickham himself](https://stackoverflow.com/questions/21435339/data-table-vs-dplyr-can-one-do-something-well-the-other-cant-or-does-poorly). If you don't know who Hadley Wickham is, get used to the name. He is the Chief Data Scientist at RStudio, he created the tidyverse package and has written many books on R/RStudio and his various packages - many of which are featured in the [Learning Resources - Free Online Books](#free-online-books) section.
+These packages are used to manipulate, transform and clean up data. If you're a beginner, I would recommend starting with *tidyverse*, but I have included some advantages and disadvantages to guide you - for a more in depth comparison, take a look at [this stackoverflow thread involving Hadley Wickham himself](https://stackoverflow.com/questions/21435339/data-table-vs-dplyr-can-one-do-something-well-the-other-cant-or-does-poorly). If you don't know who Hadley Wickham is, get used to the name. He is the Chief Data Scientist at RStudio, he created the tidyverse package and has written many books on R/RStudio and his various packages - many of which are featured in the [Learning Resources - Free Online Books](#free-online-books) section.
 
 - [tidyverse](https://www.tidyverse.org/) package collection (more specifically the dplyr and associated packages)
 	- Advantages: easily readable/comprehensible
@@ -54,6 +54,10 @@ OR
 - rrtools
 - renv
 - groundhog
+
+#### Bioinformatics/Genomics
+
+- [Bioconductor](https://www.bioconductor.org/)
 
 #### Interactive Dashboards
 
@@ -110,6 +114,7 @@ OR
 
 #### RMarkdown
 
+- [RMarkdown Cheatsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 - [Bookdown](https://www.bookdown.org/home/) (for RMarkdown docs)
 
 
@@ -141,6 +146,7 @@ GIS is used to make maps and vizualise geographic data. R can do this and I have
 #### Statistics
 
 - [An Introduction to Statistical Learning (with applications in R)](https://www.statlearning.com/) and the follow-up [The Elements of Statistical Learning](http://www.web.stanford.edu/~hastie/ElemStatLearn/)
+- [Learning Statistics with R](https://learningstatisticswithr.com/lsr-0.6.pdf)
 - [Introduction to Probability and Statistics using R](http://ipsur.r-forge.r-project.org/book/download/IPSUR.pdf)
 - [Applied Statistics with R](http://daviddalpiaz.github.io/appliedstats/)
 
