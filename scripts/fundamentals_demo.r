@@ -109,13 +109,6 @@ installed.packages()
 remove.packages("package_name")
 update.packages()
 
-# Recommended packages
-library(here)
-library(tidyverse)
-library(ggplot2)
-
-
-
 # Using data (A)  --------------------------------------------------
 
 #Explore built in datasets with data()
