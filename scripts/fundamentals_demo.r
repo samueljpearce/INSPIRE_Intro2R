@@ -20,6 +20,22 @@ getwd()
 
 #You will then be able to see your working directory within the console. 
 
+# Using the here package ----
+# Instead of setting a working directory
+# Alternatively you can use the "here" package
+# Advantages of this compared to setting a working directory are:
+# - Script becomes more reproducible
+# - When sharing a r project files with others, it should work anywhere
+
+# Loading the here package
+library(here)
+
+# Use here() to see where the here directory is
+here()
+
+# When specifying a directory, you can use this to set directory relative to the here() directory
+read.csv(here("/data/demo_data.csv"))
+
 # All About Objects ----
 # Assigning Objects
 # Objects can be assigned with '<-'
@@ -33,7 +49,7 @@ a <- 1
 # We can do calculations with multiple objects
 b <- 2
 c <- a + b
-d <- b * C
+d <- b * c
 
 # Objects can be integers, double, characters, complex and logical
 # A double is any regular number
@@ -50,6 +66,7 @@ logical <- TRUE
 # Vectors, Matrices, Data Frames and Lists ----
 # Objects can contain multiple values
 # Values can be concatenated into vectors with the c() function
+# Vectors can only contain one data type
 vector1 <- c(1, 2, 3, 4, 5) 
 
 # Vectors can also be used in calculations
@@ -65,8 +82,37 @@ vector3 <- vector1 + vector2
 vector4 <- c(1, 3)
 vector5 <- vector1 - vector4
 
-# !!!!!!!!!!!!!!!Sam - please write your intro to libraries here! ------------------------
+# Matrices can be used for 2-dimensional data
+# Matrices also only contain one data type
+# Maths with matrices works similarly to vectors
+matrix1 <- matrix(1:9, 3, 3)
 
+# Data frames will be what you store most of your data in
+# Data frames can contain multiple types of data
+# Each column can only contain one data type
+df1 <- data.frame(int = 1L:3L, double = c(1.5, 2.5, 3.5), char = c("one", "two", "three"), logical = c(TRUE, FALSE, TRUE))
+
+# Lists can contain multiple types of data, including vectors, matrices and dataframes
+# when creating lists, you can name each item
+list1 <- list(double, int, complex, char, logical, vector1, matrix1, name1 = df1)
+
+# Intro to packages ------------------------
+# Installing and loading packages 
+# Can be done with the Rstudio interface
+# When writing scripts, can be done as below
+# Means that you don't have to do it manually in RStudio at beginning of every session
+install.packages("package_name")
+library(package_name)
+
+# Check what packages are installed, removing and updatingpackages 
+installed.packages()
+remove.packages("package_name")
+update.packages()
+
+# Recommended packages
+library(here)
+library(tidyverse)
+library(ggplot2)
 
 
 
