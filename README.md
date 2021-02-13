@@ -17,6 +17,7 @@ This Readme file also contains a list of resources that you may find useful belo
 Yes, you read that correctly. Packages for learning R... in R.
 
 - [Swirl](https://swirlstats.com/)
+- learnr
 
 #### Data Cleaning/Transformation/Wrangling
 

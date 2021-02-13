@@ -28,6 +28,7 @@ getwd()
 # - When sharing a r project files with others, it should work anywhere
 
 # Loading the here package
+install.packages("here")
 library(here)
 
 # Use here() to see where the here directory is
