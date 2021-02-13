@@ -82,14 +82,14 @@ data("ToothGrowth")
 
 
 # Exploring our data (A) ------------------------------------------------------
-
 #We will now look at the "len" variable. 
 #To refer to a (single) column in a dataset, use the $ notation.
 
-ToothGrowth$dose
+ToothGrowth$supp
 ToothGrowth$len
 
-#In order to get a better sense of this continous variable, we can use the summary() function. 
+#In order to get a better sense of this continuous variable, we can use the summary() function. 
+#Its output will be visible in the console.
 summary(ToothGrowth$len)
 
 #To simplify things, you can assign a column to an object.
@@ -97,4 +97,91 @@ len <- ToothGrowth$len
 
 #The summary will be the same:
 summary(len)
+
+#As supplement is not a continuous variable (it's categorical), we won't get a breakdown of descriptive statistics.
+#However, here summary will show a table with frequencies of each.
+summary(ToothGrowth$supp)
+
+#However, if you want to create this table, it is better to just use table().
+table(ToothGrowth$supp)
+
+#This table can be easily assigned to an object
+supptable <- table(ToothGrowth$supp)
+
+#You can make this table into a data frame - this may come in handy later, as different functions need different inputs. 
+supptable <- as.data.frame(supptable)
+
+
+# A simple graph in Ggplot2 (A) -----------------------------------------------
+
+# Let's look at len again!
+summary(len)
+
+# This is useful, but we would likely want to know more about our data's distribution. 
+
+# For a quick overview, we can use hist()
+hist(len)
+
+# However, this is a bit ugly :/
+
+# If we want to make a prettier histogram, we can use ggplot2! 
+# Ggplot2 is a library that allows you to conveniently make pretty graphs.
+library(ggplot2)
+
+# We are going to create a histogram of len, called fig1, using ggplot.
+# Let's start by setting up our fig1 object
+fig1 <- ggplot(data = ToothGrowth, aes(len))
+
+# Let's look at fig1.
+fig1
+#Clearly, we are not there yet!
+
+# Although we have created fig1 - a ggplot object - that in itself isn't enough to create a histogram. 
+# We have to actually specify that we want a histogram! 
+fig1 <- fig1 + geom_histogram(binwidth = 2)
+
+fig1
+# Much better!
+# Also, the default 'bins' are much thinner than hist(). It will be more useful to have less specific (so wider) bins. 
+# This is why we are adding the binwidth argument to out function. 
+
+
+# Making our ggplot graph prettier ----------------------------------------
+
+
+# Changing the colour of the bars  
+fig1 <- fig1 + geom_histogram(binwidth = 2, fill = "green")
+
+fig1
+#Note - some colours are included by default, or alternatively you can use a hex code. 
+
+# Adding axis labels
+fig1 <- fig1 + labs(x="Length", y="Frequency")
+
+fig1
+
+# Changing graph style 
+fig1 <- fig1 + theme_classic()
+
+fig1
+
+#While we have gone through step by step above, you can combine everything into one piece of code.
+
+finishedfig1 <- ggplot(data = ToothGrowth, aes(len)) +
+  geom_histogram(binwidth = 2, fill = "#663366") + 
+  labs(x="Length", y="Frequency") + 
+  theme_classic()
+
+finishedfig1
+  
+
+
+#Colouring by supplement type - fig2
+fig2 <- ggplot(data = ToothGrowth, aes(x = len, fill = supp)) +
+  geom_histogram(binwidth = 2) + 
+  labs(x="Length", y="Frequency") + 
+  theme_classic()
+
+
+fig2 
 
